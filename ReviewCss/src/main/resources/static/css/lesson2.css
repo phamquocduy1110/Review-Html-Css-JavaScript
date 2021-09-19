@@ -1,0 +1,41 @@
+#doanvan1, #doanvan2{
+	font-weight: bold;
+	font-size: 20px;
+	color: red;	
+}
+
+#div1 span p{
+	font-weight: bold;
+	font-size: 20px;
+	color: green;	
+}
+
+div > p{
+	font-weight: bold;
+	font-size: 20px;
+	color: blue;	
+}
+
+div + p{
+	font-weight: bold;
+	font-size: 20px;
+	color: yellow;	
+}
+
+span ~ p{
+	font-weight: bold;
+	font-size: 20px;
+	color: orange;
+}
+
+[id="span3"]{
+	font-weight: bold;
+	font-size: 20px;
+	color: purple;
+}
+
+[title~="viện"] {
+	font-weight: bold;
+	font-size: 20px;
+	color: gray;	
+}
