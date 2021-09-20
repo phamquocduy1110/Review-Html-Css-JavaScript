@@ -16,8 +16,13 @@ public class MainController {
 		return "lesson2";
 	}
 	
-	@GetMapping(value="/lesson3")
-	public String lesson3() {
-		return "lesson3";
+	@GetMapping(value="/lesson3vs4")
+	public String lesson3vs4() {
+		return "lesson3vs4";
+	}
+	
+	@GetMapping(value="/lesson5")
+	public String lesson5() {
+		return "lesson5";
 	}
 }
