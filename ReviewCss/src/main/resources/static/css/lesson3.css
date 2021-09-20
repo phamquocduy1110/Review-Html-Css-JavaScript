@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+#div1 {
+	width: 200px;
+	height: 500px;
+	background-color: #F90;
+	position: fixed;
+	left: 400px;
+	top: 100px;
+	z-index: 4;
+}
+
+#div2 {
+	width: 200px;
+	height: 500px;
+	background-color: #0C3;
+	position: absolute;
+	left: 180px;
+	top: 150px;
+	z-index: 6;
+}
+
+#div3 {
+	width: 200px;
+	height: 200px;
+	background-color: #F00;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	z-index: 5;
+}
+
+#div4 {
+	width: 200px;
+	height: 500px;
+	background-color: purple;
+	position: absolute;
+	z-index: 4;
+}
+
+#div5 {
+	width: 200px;
+	height: 500px;
+	background-color: blue;
+	position: absolute;
+	left: 580px;
+	top: 150px;
+	z-index: 6;
+}
+
+#div6 {
+	width: 200px;
+	height: 200px;
+	background-color: gray;
+	position: relative;
+	left: 100px;
+	top: 100px;
+	z-index: 5;
+}
