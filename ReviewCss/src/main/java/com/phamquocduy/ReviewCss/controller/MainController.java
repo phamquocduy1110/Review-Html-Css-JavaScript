@@ -30,4 +30,19 @@ public class MainController {
 	public String lesson6() {
 		return "lesson6";
 	}
+	
+	@GetMapping(value="/lesson7")
+	public String lesson7() {
+		return "lesson7";
+	}
+	
+	@GetMapping(value="/lesson8")
+	public String lesson8() {
+		return "lesson8";
+	}
+	
+	@GetMapping(value="/lesson9")
+	public String lesson9() {
+		return "lesson9";
+	}
 }

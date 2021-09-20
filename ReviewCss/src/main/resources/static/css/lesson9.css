@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+}
+
+#panel {
+	margin: 50px 0px 0px 50px;
+	width: 400px;
+	border: 1px solid #000;
+	max-height: 50px;
+	overflow: scroll;
+	outline: 1px solid #C03;
+}
+
+#trai {
+	width: 50px;
+	height: 80px;
+	background-color: #3C0;
+	float: left;
+}
+
+#xoa {
+	clear: both;
+}
+
+#xoa1 {
+	clear: both;
+}
+
+#panel2 {
+	margin: 50px 0px 0px 50px;
+	width: 400px;
+	border: 1px solid #000;
+}
+
+#phai {
+	width: 50px;
+	height: 80px;
+	background-color: #3C0;
+	float: right;
+}
+
+#xoa2 {
+	clear: both;
+}
+
+#xoa3 {
+	clear: both;
+}

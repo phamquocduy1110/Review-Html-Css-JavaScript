@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#div1 {
+	width: 200px;
+	height: 200px;
+	background-color: #0C0;
+	position: absolute;
+	z-index: 1;
+	
+	top: 50px;
+	left: 50px;
+}
+
+#div2 {
+	width: 200px;
+	height: 200px;
+	background-color: #F00;
+	position: absolute;
+	z-index: 2;
+	
+	top: 80px;
+	left: 80px;
+	
+	opacity: 0.8;
+}
+
+p {
+	margin-top: 300px;
+}
+
+p span {
+	font-weight: bold;
+	display: block;
+}
+
+#p1 {
+	margin-top: 50px;
+}
+
+#p1 span {
+	font-weight: bold;
+	padding: 10px;
+	background-color: #3F0;
+	display: inline-block;
+}
