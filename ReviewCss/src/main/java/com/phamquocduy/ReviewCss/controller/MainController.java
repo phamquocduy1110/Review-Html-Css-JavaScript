@@ -65,4 +65,9 @@ public class MainController {
 	public String lesson13() {
 		return "lesson13";
 	}
+	
+	@GetMapping(value="/lesson14")
+	public String lesson14() {
+		return "lesson14";
+	}
 }
