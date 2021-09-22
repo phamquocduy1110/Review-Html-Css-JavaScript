@@ -1,50 +1,46 @@
-var a = 5;
-var b = 6;
-var c = 7;
+// Tính tổng của tất cả các số tự nhiên từ 1 đến 100
+// Có nghĩa là 1+2+3+4+......+ 100 = 7
 
-if(a > b) {
-	alert("Đây là alert 1: A lớn hơn B");
-}
-else {
-	alert ("Đây là alert 1: B lớn hơn hoặc bằng A");
-}
+var i;
+var tong = 0;
 
-if(a > b || a < c) {
-	alert("Đây là alert 2: A lớn hơn B hoặc a bé hơn c");
+for (i = 1; i <= 100; i++) {
+	tong += i;
 }
-else {
-	alert ("Đây là alert 2: B lớn hơn hoặc bằng A");
-}
+alert('Đây là aler 1: ' + tong);
 
-if(a > b && a < c) {
-	alert("Đây là alert 3: A lớn hơn B hoặc a bé hơn c");
+var i2 = 1;
+var tong2 = 0;
+while(i2 <= 100) {
+	tong2 += i2;
+	i2++;
 }
-else {
-	alert ("Đây là alert 3: ---------------------");
-}
+alert('Đây là alert 2: ' + tong2);
 
-if(a > b && a < c || b < c) {
-	alert("Đây là alert 4: A lớn hơn B hoặc A bé hơn C");
-}
-else {
-	alert ("Đây là alert 4: ---------------------");
-}
+var i3 = 1;
+var tong3 = 0;
+do {
+	tong3 += i3;
+	i3++;
+} while(i3 <= 100);
+alert('Đây là alert 3: ' + tong3);
 
-var _max = a;
 
-if(_max < b) {
-	
-	_max = b;
-	
-	if(_max < c) {		
-		_max = c;
-	}
-	
-}
-else {
-	if(_max < c) {
-		_max = c;	
+var i4 = 1;
+for (i4 = 1; i4 <= 100; i4++) {
+	if(i4 == 50) {
+		break;
 	}
 }
+alert('Đây là alert 4: ' + i4);
 
-alert('Đây là alert 5: ' + _max);
+var i5 = 1;
+var k = 1;
+while (i5 <= 100) {
+	i5++;
+	if(i5 == 50) {
+		continue;
+	}
+	k++;
+}
+alert('Đây là alert 5: ' + k);
