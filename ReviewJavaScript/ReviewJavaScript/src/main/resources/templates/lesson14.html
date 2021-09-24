@@ -10,21 +10,38 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@900&display=swap" rel="stylesheet">
 	
-	<link rel="stylesheet" type="text/css" th:href="@{./css/style.css}" />
-	<script type="text/javascript" src="/js/script14.js"></script>
+	<link rel="stylesheet" type="text/css" th:href="@{./css/lesson14.css}" />
 </head>
 <body>
-	<div id="banner">
-		<script type="text/javascript">
-			document.write('<b>Xin chào</b>!!!');
-		</script>
+	<div id="div1">
+		<b>đây là</b> DIV 1
+		<p id="p1">
+			Đây là P1 bên trong DIV 1
+		</p>
+		<p id="p2" class="para">
+			Đây là P2 bên trong DIV 1
+		</p>
 	</div>
-	<div class="clear"></div>
 	
-	<div id="column1">Đây là nội dung 1. Đây là nội dung 1. Đây là nội dung 1.</div>
-	<div id="column2">Đây là nội dung 2. Đây là nội dung 2. Đây là nội dung 2.</div>
-	<div id="column3">Đây là nội dung 3. Đây là nội dung 3. Đây là nội dung 3.</div>
+	<b> TÍNH PHƯƠNG TRÌNH BẬC 2</b>
+	<br />
+	<i>ax2 + bx + c = 0</i>
+	<br />
+	Nhập vào a
+	<input type="text" value="15" id="txtA">
+	<br />
 	
-	<div class="clear"></div>
+	Nhập vào b
+	<input type="text" value="5" id="txtB">
+	<br />
+	
+	Nhập vào c
+	<input type="text" value="5" id="txtC">
+	
+	<div onclick="BatDauTinh()" style="width: 80px; padding: 5px; background-color: #069; color: #FFF; cursor: pointer">
+	Bắt đầu
+	</div>
+	
+	<script type="text/javascript" src="/js/script14.js"></script>
 </body>
 </html>
