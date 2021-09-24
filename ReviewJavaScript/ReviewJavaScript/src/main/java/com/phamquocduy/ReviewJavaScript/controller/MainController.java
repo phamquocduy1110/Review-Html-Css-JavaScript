@@ -90,4 +90,9 @@ public class MainController {
 	public String lesson17() {
 		return "lesson17";
 	}
+	
+	@GetMapping(value="/lesson18")
+	public String lesson18() {
+		return "lesson18";
+	}
 }
