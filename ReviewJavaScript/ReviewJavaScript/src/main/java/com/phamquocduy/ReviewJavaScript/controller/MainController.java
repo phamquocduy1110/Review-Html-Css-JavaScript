@@ -80,4 +80,14 @@ public class MainController {
 	public String lesson15() {
 		return "lesson15";
 	}
+	
+	@GetMapping(value="/lesson16")
+	public String lesson16() {
+		return "lesson16";
+	}
+	
+	@GetMapping(value="/lesson17")
+	public String lesson17() {
+		return "lesson17";
+	}
 }
