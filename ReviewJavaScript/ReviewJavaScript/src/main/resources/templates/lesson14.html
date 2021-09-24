@@ -2,50 +2,29 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="description" content="Làm chuyển động 2D vả 3D">
+	<meta name="viewport" content="width:device-width,initial-scale:1" />
+	<meta name="description" content="DOM và kỹ thuật thao túng nội dung trang HTML" />
 	<title>Lesson 14</title>
 	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@900&display=swap" rel="stylesheet">
 	
-	<link rel="stylesheet" type="text/css" th:href="@{./css/lesson14.css}" />
+	<link rel="stylesheet" type="text/css" th:href="@{./css/style.css}" />
+	<script type="text/javascript" src="/js/script14.js"></script>
 </head>
 <body>
-	<h1>Đây là ví dụ về transaction</h1>
-	<div id="vidu_transition"></div>
+	<div id="banner">
+		<script type="text/javascript">
+			document.write('<b>Xin chào</b>!!!');
+		</script>
+	</div>
+	<div class="clear"></div>
 	
-	<h1>Đây là ví dụ về transition-deplay, transition-property, transition-duration</h1>
-	<div id="transition-deplay"></div>
-	 
-	 <h1>Đây là ví dụ về transform: translate</h1>
-	<div id="transform_translate"></div>
+	<div id="column1">Đây là nội dung 1. Đây là nội dung 1. Đây là nội dung 1.</div>
+	<div id="column2">Đây là nội dung 2. Đây là nội dung 2. Đây là nội dung 2.</div>
+	<div id="column3">Đây là nội dung 3. Đây là nội dung 3. Đây là nội dung 3.</div>
 	
-	<h1>Đây là ví dụ về transform: translate2</h1>
-	<div id="transform_translate2"></div>
-	
-	<h1>Đây là ví dụ về transform: rotate</h1>
-	<div id="transform_rotate"></div>
-	
-	<h1>Đây là ví dụ về transform: scale</h1>
-	<div id="transform_scale"></div>
-	
-	<h1>Đây là ví dụ về transform: skew</h1>
-	<div id="transform_skew"></div>
-	
-	<h1>Đây là ví dụ về transform: matrix</h1>
-	<div id="transform_matrix"></div>
-	
-	<h1>Đây là ví dụ về transform: rotateX</h1>
-	<div id="transform_rotateX">rotateX</div>
-	
-	<h1>Đây là ví dụ về transform: rotateX, rotateY</h1>
-	<div id="transform_rotateX_Y">rotateX_Y</div>
-	
-	<h1>Đây là ví dụ về transform: rotateX, rotateY, rotateZ</h1>
-	<div id="transform_rotateX_Y_Z">rotateX_Y_Z</div>
-	
-	<h1>Đây là ví dụ về transform: rotate3D</h1>
-	<div id="transform_rotate3D">rotate3D</div>
+	<div class="clear"></div>
 </body>
 </html>
